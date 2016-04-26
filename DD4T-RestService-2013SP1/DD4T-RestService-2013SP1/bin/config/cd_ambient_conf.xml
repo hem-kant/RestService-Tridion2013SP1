@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration Version="7.0"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="schemas/cd_ambient_conf.xsd">
+    
+    <Cartridges>
+        <!-- Example cartridge definition -->
+        <!-- You can hook into and use the Ambient Data Framework by implementing cartridges. 
+        This is how a cartridge XML configuration files can be specified. -->
+		<!--<Cartridge File="footprint_cartridge_conf.xml"/>
+		<Cartridge File="session_cartridge_conf.xml"/> 	 -->
+         <Cartridge File="cd_webservice_preview_cartridge.xml"/>
+		<!--<Cartridge File="smarttarget_odata_cartridge_conf.xml" />		-->
+        <!--Cartridge File="footprint_cartridge_conf.xml"/-->
+        
+    </Cartridges>
+    <!-- Cookies settings -->
+    <!--
+    <Cookies>
+        <CookieClaim DefaultValue="true" Name="CookieClaim"/>
+        <Cookie Type="Tracking" Name="myTrackingCookie" Path="/"/>
+        <Cookie Type="Session" Name="mySessionCookie" Path="/"/>
+        <Cookie Type="ADF" Name="TAFContext" />
+    </Cookies>
+    -->
+</Configuration>

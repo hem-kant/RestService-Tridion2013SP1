@@ -1,0 +1,25 @@
+<ItemTypes defaultStorageId="defaultdb" cached="false">
+	<Item typeMapping="Binary" storageId="defaultFile" cached="true"/>
+	<Item typeMapping="Page" cached="true" storageId="defaultFile" itemExtension=".cshtml" />
+	<Item typeMapping="Page" cached="true" storageId="defaultFile" itemExtension=".js" />
+	<Item typeMapping="Page" cached="true" storageId="defaultFile" itemExtension=".css" />	
+	<Item typeMapping="Page" cached="true" storageId="defaultFile" itemExtension=".xml" />
+	<Item typeMapping="Page" cached="true" storageId="defaultFile" itemExtension=".xslt" />
+	<Item typeMapping="Page" cached="true" storageId="defaultFile" itemExtension=".config" />
+	...
+	...
+</ItemTypes>
+
+
+<Storages>
+	...
+	...
+	<Storage Type="filesystem" Class="com.tridion.storage.filesystem.FSDAOFactory" Id="defaultFile" defaultFilesystem="false">
+		<Root Path="\\Path\to\sites" />
+	</Storage>
+	<Storage Type="filesystem" Class="com.tridion.storage.filesystem.FSDAOFactory" Id="defaultDataFile" defaultFilesystem="true" defaultStorage="true">
+		<Root Path="\\Path\to\sites\data" />
+	</Storage>
+	...
+	...
+</Storages>

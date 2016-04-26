@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="DD4T_RestService_2013SP1.Service1" CodeBehind="Tridion2013SP1Provider.svc.cs" %>

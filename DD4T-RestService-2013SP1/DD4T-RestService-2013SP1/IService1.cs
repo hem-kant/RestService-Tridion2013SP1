@@ -37,6 +37,10 @@ namespace DD4T_RestService_2013SP1
         [WebGet(UriTemplate = "/GetComponentPresentationByPublishedDate/{pubId}/{SchemaId}/{WebMessageFormat}")]
         string GetComponentPresentationByPublishedDate(string pubId, string SchemaId, string WebMessageFormat);
 
+        [OperationContract(Name = "GetComponentPresentationBySchemaID")]
+        [WebGet(UriTemplate = "/GetComponentPresentationBySchemaID/{pubId}/{SchemaId}/{WebMessageFormat}")]
+        string GetComponentPresentationBySchemaID(string pubId, string SchemaId, string WebMessageFormat);
+
     }
      
 }

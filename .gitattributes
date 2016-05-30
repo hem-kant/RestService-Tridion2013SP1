@@ -1,5 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+DD4T-RestService-2013SP1/DD4T-RestService-2013SP1/obj/Debug/Package/PackageTmp/scripts/* linguist-vendored
+DD4T-RestService-2013SP1/DD4T-RestService-2013SP1/scripts/* linguist-vendored
+DD4T-RestService-2013SP1/packages/Microsoft.ApplicationInsights.JavaScript.0.15.0-build58334/content/scripts/* linguist-vendored
 
 # Custom for Visual Studio
 *.cs     diff=csharp
